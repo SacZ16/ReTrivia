@@ -1,0 +1,80 @@
+.contenedor_juego{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+.popup_seguir{
+    position: absolute;
+    width: 90%;
+    padding: 2rem;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.subpopup_seguir{
+    width: 80%;
+    display: flex;
+    border: solid 2px rgb(4, 155, 4);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.contenedor_boton_seguir{
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+.boton_seguir{
+    border: solid 2px rgb(4, 155, 4);
+    margin: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.caja_preguntas{
+    padding: 3rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.boton_juego{
+    border: solid 2px rgb(4, 155, 4);
+    margin: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.score{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ganado{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.agregar_pregunta{
+    display: flex;
+    flex-direction: column;
+}
+.input_agregar_pregunta{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
