@@ -26,3 +26,4 @@ POST('http://localhost:3010/preguntas')<br />
 }<br />
 GET('http://localhost:3010/usuarios')<br />
 GET('http://localhost:3010/usuarios/:id')<br />
+ <h2><a href="https://retrivia.herokuapp.com" _blank>LINK DEPLOYADO</a></h2>
